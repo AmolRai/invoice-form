@@ -1,8 +1,8 @@
 # Installing Guide
 
 - Ensure that Node.js is downloaded.
-- Clone the Repository: git clone
-- Navigate into the project folder: cd invoice-assessment
+- Clone the Repository: git clone `https://github.com/AmolRai/invoice-form.git`
+- Navigate into the project folder: cd invoice-form
 - Run npm install
 - Run npm start
   Access the Application: http://localhost:3000
