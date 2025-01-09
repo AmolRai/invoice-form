@@ -1,0 +1,53 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+}
+
+.inputLabel {
+  font-size: 14px;
+  color: #4b5768;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.inputIcon {
+  width: 1rem;
+  position: absolute;
+  left: 10px;
+}
+
+.secondaryInputIcon {
+  width: 1rem;
+  position: absolute;
+  right: 10px;
+}
+
+.input {
+  width: 20rem;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #64748b;
+  width: 100%;
+}
+
+.paddingLeft {
+  padding-left: 2rem;
+}
+
+.input::placeholder {
+  color: #a0abbb;
+}
+
+.error {
+  color: red;
+}

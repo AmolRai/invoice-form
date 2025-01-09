@@ -1,0 +1,184 @@
+.rootContainer {
+  padding: 2rem;
+}
+
+.vendorContainer {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form {
+  width: 95%;
+}
+
+.vendor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.vendorDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1rem;
+  margin-right: 22rem;
+}
+
+.vendorTab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.vendorTabColor {
+  color: #1787e0; /* #0D0F11 */
+  border-bottom: 2px solid #1787e0;
+  padding-bottom: 2px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.vendorIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.vendorIcon span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.vendorInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.showVendorDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  align-self: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1787e0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.gridItem {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.addExpense {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.addExpense button {
+  align-self: flex-end;
+  padding: 8px 16px;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.commentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.formAction {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 16px 20px;
+  gap: 1rem;
+  border-radius: 8px;
+}
+
+.formAction button {
+  border: none;
+  background-color: #1787e0;
+  color: white;
+  padding: 12px 20px;
+  width: 15rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.dollarExpense {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.customSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logoutBtn {
+  position: absolute;
+  border: none;
+  background-color: #1787e0;
+  color: white;
+  padding: 10px 2rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .formAction button {
+    font-size: 12px;
+    width: 8rem;
+  }
+}

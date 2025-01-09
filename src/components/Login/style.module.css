@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form h1 {
+  margin-bottom: 2rem;
+}
+
+.input {
+  background-color: initial;
+  border: 1px solid #50575e;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 45px;
+  margin: 8px auto 0;
+  max-width: 320px;
+  outline: none;
+  padding: 13px 15px;
+  width: 20rem;
+}
+
+.login {
+  background-color: #2592ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 12px;
+  width: 20rem;
+}

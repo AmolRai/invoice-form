@@ -1,0 +1,35 @@
+.uploadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px dashed #64748b;
+  flex: 1;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  margin-top: 2rem;
+}
+
+.uploadBtn {
+  border-radius: 8px;
+  border: 1px solid #0d0f11;
+  font-size: 16px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.uploadContainer h3 {
+  color: #0d0f11;
+  font-size: 20px;
+}
+
+.auto {
+  color: #0d0f11;
+  font-size: 1rem;
+}
