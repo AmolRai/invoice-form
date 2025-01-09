@@ -56,17 +56,17 @@ const InvoiceForm = () => {
       <button className={styles.logoutBtn} onClick={handleLogout}>
         Logout
       </button>
-      <div className={styles.vendorDetails}>
-        <div className={styles.vendorTab}>
-          <span className={styles.vendorTabColor}>Vendor Details</span>
-          <span>Invoice Details</span>
-          <span>Comments</span>
-        </div>
-      </div>
 
       <div className={styles.vendorContainer}>
         <UploadInvoice />
         <div className={styles.vendor}>
+          <div className={styles.vendorDetails}>
+            <div className={styles.vendorTab}>
+              <span className={styles.vendorTabColor}>Vendor Details</span>
+              <span>Invoice Details</span>
+              <span>Comments</span>
+            </div>
+          </div>
           <Formik
             initialValues={getInitialValues()}
             validate={validate}
