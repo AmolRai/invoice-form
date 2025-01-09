@@ -1,4 +1,4 @@
-# Installing Guide
+# Installation Guide
 
 - Ensure that Node.js is downloaded.
 - Clone the Repository: git clone `https://github.com/AmolRai/invoice-form.git`
